@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackgrey">
+
+    <TextView
+        android:id="@+id/invitationDetails"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/invitationInfo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/blackgrey"
+        android:background="@color/white"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/arrowdown"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="3dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="#fff"
+        android:ems="10"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="@string/food"
+        android:textColor="@color/blackgrey"
+        android:textColorHint="@color/grey"
+        android:inputType="text"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="#fff"
+        android:ems="10"
+        android:layout_margin="5dp"
+        android:hint="@string/budget"
+        android:textColor="@color/blackgrey"
+        android:textColorHint="@color/grey"
+        android:inputType="numberDecimal"
+        android:padding="12dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/setTimeDate"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/salmon"
+        android:text="@string/date"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:onClick="showDatePickerDialog"/>
+
+    <Button
+        android:id="@+id/btn_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/salmon"
+        android:text="@string/time"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:onClick="showTimePickerDialog"/>
+
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:background="@drawable/button_background_signup"
+        android:textColor="@color/white"
+        android:text="@string/create"
+        android:onClick="addInvitation"/>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<fragment
+        android:id="@+id/listFragmentInvitations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.example.simenarvnes.s198517.ListFragment_Invitation"
+        tools:layout="@layout/listview"/>
+-->
+    <RelativeLayout
+        android:background="@color/blackgrey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/searchZip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:ems="10"
+            android:layout_margin="5dp"
+            android:text="@string/searchZip"
+            android:textColor="@color/blackgrey"
+            android:background="@color/white"
+            android:inputType="number"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_toRightOf="@id/searchZip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_background_signin"
+            android:textColor="@color/white"
+            android:text="@string/search"
+            android:onClick="search"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ListView>
+</LinearLayout>

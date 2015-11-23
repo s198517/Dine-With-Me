@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".HovedAktivitet">
+
+    <item android:id="@+id/listactivity" android:title="@string/listactivity"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/profileactivity" android:title="@string/profile"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

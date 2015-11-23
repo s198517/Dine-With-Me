@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HovedAktivitet"
+    android:background="@drawable/homepagebackground">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/button_background_signup"
+        android:textColor="@color/white"
+        android:text="@string/signUp"
+        android:onClick="signUp"/>
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button_background_signin"
+        android:textColor="@color/white"
+        android:text="@string/signIn"
+        android:onClick="signIn"/>
+
+</RelativeLayout>

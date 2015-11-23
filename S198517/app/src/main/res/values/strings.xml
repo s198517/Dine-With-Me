@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">S198517</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="signIn">Sign In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="detailsSignUp">Tell us about yourself</string>
+    <string name="sirname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="streetaddress">Street Address</string>
+    <string name="zip">Zip Code</string>
+    <string name="phonenumber">Phone number</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="listactivity">Search</string>
+    <string name="profile">Profile</string>
+    <string name="addInvitation">Create invitation</string>
+    <string name="invitationInfo">Fill in invitation details</string>
+    <string name="food">What kind of food are you making</string>
+    <string name="budget">Budget in NOK</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="create">Create invitation</string>
+    <string name="setTimeDate">Set date and time</string>
+    <string name="login">Log in</string>
+    <string name="search">Search</string>
+    <string name="searchZip">Search by zip code</string>
+    <string name="yourInvitations">Your invitations</string>
+    <string name="requestsForThisInvitation">Requests for this invitation</string>
+    <string name="sorry">Sorry, no results matching your search.</string>
+</resources>
